@@ -1,0 +1,6 @@
+{
+  "clientId" : "your client id",
+  "clientSecret" : "client secret",
+  "callbackURL" :  "callback url",
+  "secret" : "somesecretthinghere"
+}
