@@ -1,6 +1,6 @@
 {
-  "clientId" : "your client id",
-  "clientSecret" : "client secret",
-  "callbackURL" :  "callback url",
-  "secret" : "somesecretthinghere"
+  "clientId" : "9209878933",
+  "clientSecret" : "8ctGKxz32kQkx7vp6ZsxQ3qo44BOuozcTBk4Vh1dV39bnqLGEZr5svPPQRKGJIWI",
+  "callbackURL" :  "http://localhost:8080/callback",
+  "secret" : "somesecretthingheres"
 }
