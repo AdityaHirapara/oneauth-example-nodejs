@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node request-version/server.js",
+    "request" : "node request-version/server.js",
+    "passport" : "node passport-version/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "abhishek97",
@@ -14,6 +16,8 @@
     "express": "^4.15.2",
     "express-session": "^1.15.2",
     "hbs": "^4.0.1",
+    "passport": "^0.3.2",
+    "passport-oauth2": "^1.4.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   }

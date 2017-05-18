@@ -8,13 +8,13 @@ const path = require('path');
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const rp = require('request-promise');
-const config = require('./config.json');
+const config = require('../config.json');
 const app = express();
 
 
 app.use(express.static('public'));
 app.set('view engine','hbs');
-app.set('views', path.join(__dirname , '/views'));
+app.set('views', path.join(__dirname , '../views'));
 app.use(bodyParser.json());
 app.use(session({
     secret : config.secret,
@@ -73,6 +73,9 @@ app.get('/welcome', (req,res)=>{
         // now that we have an accessToken , We can get data from the api
         rp({
             uri : 'https://account.codingblocks.com/api/users/me',
+            qs : {
+                include : 'github'
+            },
             headers : {
                 'Authorization' : `Bearer ${req.session.accessToken}`
             },

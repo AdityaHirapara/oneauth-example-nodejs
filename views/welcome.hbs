@@ -7,5 +7,16 @@
 <body>
 <h1> Hello {{firstname}}, How are you doing? </h1>
 <img src="{{photo}}" >
+
+{{#if usergithub}}
+    <h4>
+        You have github linked to this account.
+        Username is : <a href="https://github.com/{{usergithub.username}}"> {{usergithub.username}} </a>
+    </h4>
+{{else}}
+    <p>
+        You don't have a github account linked.
+    </p>
+{{/if}}
 </body>
 </html>

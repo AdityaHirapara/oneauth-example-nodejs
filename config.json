@@ -1,6 +1,6 @@
 {
-  "clientId" : "9209878933",
-  "clientSecret" : "8ctGKxz32kQkx7vp6ZsxQ3qo44BOuozcTBk4Vh1dV39bnqLGEZr5svPPQRKGJIWI",
-  "callbackURL" :  "https://oneauth-example.herokuapp.com/callback",
+  "clientId" : "7183300562",
+  "clientSecret" : "ECRVo5ZxqcauPSi74geV6WXi7WwxnK5u16DRVryGCF2xevzAx8gCrOetjDCSebGy",
+  "callbackURL" :  "http://localhost:8080/callback",
   "secret" : "somesecretthingheres"
 }
