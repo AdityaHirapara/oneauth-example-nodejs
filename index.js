@@ -88,6 +88,6 @@ app.get('/welcome', (req,res)=>{
 });
 
 
-app.listen('8080', function () {
+app.listen(process.env.PORT || 8080, function () {
     console.log('Running on 8080');
 });
